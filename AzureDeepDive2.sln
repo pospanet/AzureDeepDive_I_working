@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{5B1EA8E7-E534-453B-BDC2-1773A39AFA17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{F8451B1F-FEAB-4FA9-BF6F-8C5A70088385}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{AD174A21-294D-4CDC-B7BB-1A809C35AA32}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\WebApplication-WAWS-dev.json = PublishScripts\Configurations\WebApplication-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService", "AzureCloudService\AzureCloudService.ccproj", "{97FC42C8-75B7-4384-A688-BC315B4D5725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole", "WebRole\WebRole.csproj", "{CA2C08BA-2B7B-46BF-94CB-8B8B1F0CCD6D}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService2", "AzureCloudService2\AzureCloudService2.ccproj", "{F2AF8840-F946-4C20-B168-2A969C8952C2}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService3", "AzureCloudService3\AzureCloudService3.ccproj", "{92F586A1-8851-411F-80D1-29861A23FDDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole", "WorkerRole\WorkerRole.csproj", "{CA3D3300-2E26-4264-AE52-F3BD46144662}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService4", "AzureCloudService4\AzureCloudService4.ccproj", "{0C0C6978-BB0D-483E-81FE-6FD21B56F815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRoleWithSBQueue", "WorkerRoleWithSBQueue\WorkerRoleWithSBQueue.csproj", "{EA70DDB4-4127-4B31-BAD7-9A1A13AE7D7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B1EA8E7-E534-453B-BDC2-1773A39AFA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1EA8E7-E534-453B-BDC2-1773A39AFA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1EA8E7-E534-453B-BDC2-1773A39AFA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1EA8E7-E534-453B-BDC2-1773A39AFA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FC42C8-75B7-4384-A688-BC315B4D5725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FC42C8-75B7-4384-A688-BC315B4D5725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FC42C8-75B7-4384-A688-BC315B4D5725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FC42C8-75B7-4384-A688-BC315B4D5725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2C08BA-2B7B-46BF-94CB-8B8B1F0CCD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2C08BA-2B7B-46BF-94CB-8B8B1F0CCD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2C08BA-2B7B-46BF-94CB-8B8B1F0CCD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2C08BA-2B7B-46BF-94CB-8B8B1F0CCD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AF8840-F946-4C20-B168-2A969C8952C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AF8840-F946-4C20-B168-2A969C8952C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AF8840-F946-4C20-B168-2A969C8952C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AF8840-F946-4C20-B168-2A969C8952C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F586A1-8851-411F-80D1-29861A23FDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F586A1-8851-411F-80D1-29861A23FDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F586A1-8851-411F-80D1-29861A23FDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F586A1-8851-411F-80D1-29861A23FDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3D3300-2E26-4264-AE52-F3BD46144662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3D3300-2E26-4264-AE52-F3BD46144662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3D3300-2E26-4264-AE52-F3BD46144662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3D3300-2E26-4264-AE52-F3BD46144662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0C6978-BB0D-483E-81FE-6FD21B56F815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0C6978-BB0D-483E-81FE-6FD21B56F815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0C6978-BB0D-483E-81FE-6FD21B56F815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0C6978-BB0D-483E-81FE-6FD21B56F815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA70DDB4-4127-4B31-BAD7-9A1A13AE7D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA70DDB4-4127-4B31-BAD7-9A1A13AE7D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA70DDB4-4127-4B31-BAD7-9A1A13AE7D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA70DDB4-4127-4B31-BAD7-9A1A13AE7D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD174A21-294D-4CDC-B7BB-1A809C35AA32} = {F8451B1F-FEAB-4FA9-BF6F-8C5A70088385}
+	EndGlobalSection
+EndGlobal
